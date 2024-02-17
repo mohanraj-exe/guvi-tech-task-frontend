@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #2e323f;
+    color: #fff;
+    text-align: center;
+}
+
+.header__container{
+    width: 85%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 0.25em 0;
+}
+
+.signup,
+.login {
+    width: 35%;
+}
+
+.btn__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn--class {
+    background-color: #A59678;
+    color: #fff;
+    font-size: 0.9rem;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.gender__section{
+    display: flex;
+}
+.gender__section--option{
+    margin-left: 1em;
+}
+/* .user_profile{
+    margin: 2em 0;
+} */
